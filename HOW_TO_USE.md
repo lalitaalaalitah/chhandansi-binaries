@@ -105,7 +105,9 @@ chhandansi --example "शालिनी"
 
 ### 3. Interactive Web GUI (जालपृष्ठ-रूपम्)
 
-Launch the embedded Catppuccin web interface:
+You can access the live hosted web application directly at [https://chhandaansi.lalitaalaalitah.com](https://chhandaansi.lalitaalaalitah.com) (or [https://chhandansi-863219144057.us-central1.run.app](https://chhandansi-863219144057.us-central1.run.app)).
+
+Alternatively, launch the embedded Catppuccin web interface locally from the binary:
 
 ```bash
 chhandansi -w --port 8765

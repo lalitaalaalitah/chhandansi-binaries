@@ -11,6 +11,7 @@ Official distribution repository for pre-compiled, standalone single-file execut
 - **GitHub**: [https://github.com/lalitaalaalitah](https://github.com/lalitaalaalitah)
 - **Version**: `2.1.0`
 - **Release Tag**: `v2.1.0`
+- **Live Web Application**: [https://chhandaansi.lalitaalaalitah.com](https://chhandaansi.lalitaalaalitah.com) (also [https://chhandansi-863219144057.us-central1.run.app](https://chhandansi-863219144057.us-central1.run.app))
 - **Companion Guide**: [HOW_TO_USE.md](HOW_TO_USE.md)
 
 ---
