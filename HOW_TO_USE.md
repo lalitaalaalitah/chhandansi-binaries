@@ -11,7 +11,27 @@
 
 ## १. प्रतिष्ठापनम् (Installation & Setup)
 
-### Step 1: Download Binary and Checksum
+### विधिः १: Homebrew Tap द्वारा (Recommended for macOS)
+
+If you use Homebrew on macOS, install `chhandansi` with a single command:
+
+```bash
+# Tap the repository
+brew tap lalitaalaalitah/tap
+
+# Install chhandansi
+brew install --cask chhandansi
+```
+
+*(You can also use the full cask name: `brew install --cask lalitaalaalitah-chhandansi`)*
+
+Homebrew places `chhandansi` directly in your PATH (`/opt/homebrew/bin/chhandansi`) and clears quarantine attributes automatically.
+
+---
+
+### विधिः २: Standalone Binary प्रत्यक्ष-अवरोहणम् (Direct Download)
+
+#### Step 1: Download Binary and Checksum
 
 ```bash
 # Download binary asset for macOS arm64
@@ -21,7 +41,7 @@ curl -LO https://github.com/lalitaalaalitah/chhandansi-binaries/releases/downloa
 curl -LO https://github.com/lalitaalaalitah/chhandansi-binaries/releases/download/v2.1.0/SHA256SUMS.txt
 ```
 
-### Step 2: Verify Checksum
+#### Step 2: Verify Checksum
 
 Ensure that the cryptographic hash matches the official release:
 
@@ -34,7 +54,7 @@ Expected output:
 chhandansi-darwin-arm64: OK
 ```
 
-### Step 3: Install into System PATH
+#### Step 3: Install into System PATH
 
 ```bash
 chmod +x chhandansi-darwin-arm64
@@ -43,7 +63,7 @@ sudo mv chhandansi-darwin-arm64 /usr/local/bin/chhandansi
 
 *(Alternatively, place in `~/.local/bin/chhandansi` if you do not have root privileges).*
 
-### Step 4: macOS Gatekeeper Quarantine Clearance
+#### Step 4: macOS Gatekeeper Quarantine Clearance
 
 If macOS flags the standalone binary with a security popup because it was downloaded from the web:
 
@@ -149,6 +169,6 @@ Simply download the latest binary from [Releases](https://github.com/lalitaalaal
 
 ```bash
 brew update
-brew upgrade --cask lalitaalaalitah-chhandansi
+brew upgrade --cask chhandansi
 ```
 

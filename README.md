@@ -79,16 +79,21 @@ chhandansi -w --port 8765
 
 ## 🍺 Homebrew Installation (macOS)
 
-You can also install and update `chhandansi` using Homebrew via the official tap:
+You can install and update `chhandansi` effortlessly using Homebrew via the official tap:
 
 ```bash
+# Tap the repository
 brew tap lalitaalaalitah/tap
-brew install --cask lalitaalaalitah-chhandansi
+
+# Install chhandansi
+brew install --cask chhandansi
 ```
+
+*(You can also use the full package identifier: `brew install --cask lalitaalaalitah-chhandansi`)*
 
 To update when a new version is released:
 ```bash
-brew upgrade --cask lalitaalaalitah-chhandansi
+brew upgrade --cask chhandansi
 ```
 
 ---
