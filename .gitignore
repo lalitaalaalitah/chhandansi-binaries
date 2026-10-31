@@ -1,0 +1,7 @@
+# Prevent accidental commits of large binary files to git history
+*.tar.gz
+*.zip
+chhandansi
+chhandansi-darwin-*
+chhandansi-linux-*
+.DS_Store
