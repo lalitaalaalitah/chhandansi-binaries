@@ -151,3 +151,4 @@ Simply download the latest binary from [Releases](https://github.com/lalitaalaal
 brew update
 brew upgrade --cask lalitaalaalitah-chhandansi
 ```
+

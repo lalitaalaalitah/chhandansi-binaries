@@ -96,3 +96,4 @@ brew upgrade --cask lalitaalaalitah-chhandansi
 ## 📖 Complete Documentation
 
 For detailed usage, interactive REPL options, multi-script output, and text file batch processing, see [HOW_TO_USE.md](HOW_TO_USE.md).
+
