@@ -9,8 +9,8 @@ Official distribution repository for pre-compiled, standalone single-file execut
 - **Author**: `lalitaalaalitah`
 - **Website**: [https://www.lalitaalaalitah.com](https://www.lalitaalaalitah.com)
 - **GitHub**: [https://github.com/lalitaalaalitah](https://github.com/lalitaalaalitah)
-- **Version**: `4.0.0`
-- **Latest Release**: [v4.0.0](https://github.com/lalitaalaalitah/chhandansi-binaries/releases/latest)
+- **Version**: `5.1.0`
+- **Latest Release**: [v5.1.0](https://github.com/lalitaalaalitah/chhandansi-binaries/releases/latest)
 - **Live Web Application**: [https://chhandaansi.lalitaalaalitah.com](https://chhandaansi.lalitaalaalitah.com) (also [https://chhandansi-863219144057.us-central1.run.app](https://chhandansi-863219144057.us-central1.run.app))
 - **Companion Guide**: [HOW_TO_USE.md](HOW_TO_USE.md)
 
@@ -32,9 +32,9 @@ Download the standalone executable or compressed archive for your operating syst
 
 | Platform / Architecture | Standalone Executable | Compressed Archive | Checksum |
 | :--- | :--- | :--- | :--- |
-| **macOS Apple Silicon (M1/M2/M3/M4)** | [`chhandansi-darwin-arm64`](https://github.com/lalitaalaalitah/chhandansi-binaries/releases/latest/download/chhandansi-darwin-arm64) | [`chhandansi-v4.0.0-darwin-arm64.tar.gz`](https://github.com/lalitaalaalitah/chhandansi-binaries/releases/latest) | [`SHA256SUMS.txt`](https://github.com/lalitaalaalitah/chhandansi-binaries/releases/latest/download/SHA256SUMS.txt) |
-| **Linux 64-bit PC / Cloud (x86_64)** | [`chhandansi-linux-x86_64`](https://github.com/lalitaalaalitah/chhandansi-binaries/releases/latest/download/chhandansi-linux-x86_64) | [`chhandansi-v4.0.0-linux-x86_64.tar.gz`](https://github.com/lalitaalaalitah/chhandansi-binaries/releases/latest) | [`SHA256SUMS.txt`](https://github.com/lalitaalaalitah/chhandansi-binaries/releases/latest/download/SHA256SUMS.txt) |
-| **Linux 64-bit ARM (aarch64 / RPi 4/5)** | [`chhandansi-linux-arm64`](https://github.com/lalitaalaalitah/chhandansi-binaries/releases/latest/download/chhandansi-linux-arm64) | [`chhandansi-v4.0.0-linux-arm64.tar.gz`](https://github.com/lalitaalaalitah/chhandansi-binaries/releases/latest) | [`SHA256SUMS.txt`](https://github.com/lalitaalaalitah/chhandansi-binaries/releases/latest/download/SHA256SUMS.txt) |
+| **macOS Apple Silicon (M1/M2/M3/M4)** | [`chhandansi-darwin-arm64`](https://github.com/lalitaalaalitah/chhandansi-binaries/releases/latest/download/chhandansi-darwin-arm64) | [`chhandansi-v5.1.0-darwin-arm64.tar.gz`](https://github.com/lalitaalaalitah/chhandansi-binaries/releases/latest) | [`SHA256SUMS.txt`](https://github.com/lalitaalaalitah/chhandansi-binaries/releases/latest/download/SHA256SUMS.txt) |
+| **Linux 64-bit PC / Cloud (x86_64)** | [`chhandansi-linux-x86_64`](https://github.com/lalitaalaalitah/chhandansi-binaries/releases/latest/download/chhandansi-linux-x86_64) | [`chhandansi-v5.1.0-linux-x86_64.tar.gz`](https://github.com/lalitaalaalitah/chhandansi-binaries/releases/latest) | [`SHA256SUMS.txt`](https://github.com/lalitaalaalitah/chhandansi-binaries/releases/latest/download/SHA256SUMS.txt) |
+| **Linux 64-bit ARM (aarch64 / RPi 4/5)** | [`chhandansi-linux-arm64`](https://github.com/lalitaalaalitah/chhandansi-binaries/releases/latest/download/chhandansi-linux-arm64) | [`chhandansi-v5.1.0-linux-arm64.tar.gz`](https://github.com/lalitaalaalitah/chhandansi-binaries/releases/latest) | [`SHA256SUMS.txt`](https://github.com/lalitaalaalitah/chhandansi-binaries/releases/latest/download/SHA256SUMS.txt) |
 
 ---
 
