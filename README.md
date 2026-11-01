@@ -161,6 +161,7 @@ For detailed usage, interactive REPL options, multi-script output, and text file
   - **Repository**: [https://github.com/catppuccin/catppuccin](https://github.com/catppuccin/catppuccin)
   - **Contribution**: Soothing pastel color palette powering the Web UI's Mocha (dark) and Latte (light) themes.
 - **Adishila Font Family**
+  - **Website**: [https://adishila.com/fonts/](https://adishila.com/fonts/)
   - **Contribution**: Authentic traditional Devanagari typography with rendering support for complex classical ligatures, conjuncts (*saṃyoga*), and Vedic/classical diacritics.
 
 ### 4. Classical Sanskrit Prosodic Treatises (आकरग्रन्थाः)

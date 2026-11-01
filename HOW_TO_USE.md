@@ -194,5 +194,5 @@ This platform builds upon and synthesizes the works of the following upstream op
 - **`chandas`** by **Arun Prasad** ([github.com/akprasad/chandas](https://github.com/akprasad/chandas))
 - **`aksharamukha`** by **Vinodh Rajan** ([github.com/virtualvinodh/aksharamukha-python](https://github.com/virtualvinodh/aksharamukha-python) | [aksharamukha.appspot.com](https://aksharamukha.appspot.com/))
 - **Catppuccin Palette** ([github.com/catppuccin/catppuccin](https://github.com/catppuccin/catppuccin))
-- **Adishila Typography**
+- **Adishila Typography** ([adishila.com/fonts](https://adishila.com/fonts/))
 - **Classical Treatises**: Piṅgala's *Chandaḥ-sūtra*, Kedārabhaṭṭa's *Vṛttaratnākara*, Kālidāsa's *Śrutabodha*, and Gaṅgādāsa's *Chandomañjarī*.
