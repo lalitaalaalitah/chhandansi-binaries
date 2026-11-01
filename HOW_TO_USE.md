@@ -4,7 +4,7 @@
 - **Author**: `lalitaalaalitah`
 - **Website**: [https://www.lalitaalaalitah.com](https://www.lalitaalaalitah.com)
 - **GitHub**: [https://github.com/lalitaalaalitah](https://github.com/lalitaalaalitah)
-- **Version**: `2.1.0`
+- **Version**: `3.0.0`
 - **License**: AGPL-3.0
 
 ---
@@ -31,44 +31,54 @@ Homebrew places `chhandansi` directly in your PATH (`/opt/homebrew/bin/chhandans
 
 ### विधिः २: Standalone Binary प्रत्यक्ष-अवरोहणम् (Direct Download)
 
-#### Step 1: Download Binary and Checksum
+Pre-compiled standalone executables are available for macOS and Linux. All download links below dynamically point to the latest stable release.
+
+#### macOS (Apple Silicon M1/M2/M3/M4)
 
 ```bash
-# Download binary asset for macOS arm64
-curl -LO https://github.com/lalitaalaalitah/chhandansi-binaries/releases/download/v2.1.0/chhandansi-darwin-arm64
+# 1. Download binary and checksum
+curl -LO https://github.com/lalitaalaalitah/chhandansi-binaries/releases/latest/download/chhandansi-darwin-arm64
+curl -LO https://github.com/lalitaalaalitah/chhandansi-binaries/releases/latest/download/SHA256SUMS.txt
 
-# Download SHA256 checksums file
-curl -LO https://github.com/lalitaalaalitah/chhandansi-binaries/releases/download/v2.1.0/SHA256SUMS.txt
-```
+# 2. Verify checksum
+grep "chhandansi-darwin-arm64" SHA256SUMS.txt | shasum -a 256 -c -
 
-#### Step 2: Verify Checksum
-
-Ensure that the cryptographic hash matches the official release:
-
-```bash
-shasum -a 256 -c SHA256SUMS.txt
-```
-
-Expected output:
-```
-chhandansi-darwin-arm64: OK
-```
-
-#### Step 3: Install into System PATH
-
-```bash
+# 3. Make executable and install to PATH
 chmod +x chhandansi-darwin-arm64
 sudo mv chhandansi-darwin-arm64 /usr/local/bin/chhandansi
+
+# 4. Clear Gatekeeper quarantine (if prompted by macOS)
+xattr -d com.apple.quarantine /usr/local/bin/chhandansi 2>/dev/null || true
 ```
 
-*(Alternatively, place in `~/.local/bin/chhandansi` if you do not have root privileges).*
-
-#### Step 4: macOS Gatekeeper Quarantine Clearance
-
-If macOS flags the standalone binary with a security popup because it was downloaded from the web:
+#### Linux x86_64 (64-bit Intel / AMD)
 
 ```bash
-xattr -d com.apple.quarantine /usr/local/bin/chhandansi
+# 1. Download binary and checksum
+curl -LO https://github.com/lalitaalaalitah/chhandansi-binaries/releases/latest/download/chhandansi-linux-x86_64
+curl -LO https://github.com/lalitaalaalitah/chhandansi-binaries/releases/latest/download/SHA256SUMS.txt
+
+# 2. Verify checksum
+grep "chhandansi-linux-x86_64" SHA256SUMS.txt | sha256sum -c -
+
+# 3. Make executable and install to PATH
+chmod +x chhandansi-linux-x86_64
+sudo mv chhandansi-linux-x86_64 /usr/local/bin/chhandansi
+```
+
+#### Linux ARM64 (aarch64 / Raspberry Pi 4/5 / Ampere)
+
+```bash
+# 1. Download binary and checksum
+curl -LO https://github.com/lalitaalaalitah/chhandansi-binaries/releases/latest/download/chhandansi-linux-arm64
+curl -LO https://github.com/lalitaalaalitah/chhandansi-binaries/releases/latest/download/SHA256SUMS.txt
+
+# 2. Verify checksum
+grep "chhandansi-linux-arm64" SHA256SUMS.txt | sha256sum -c -
+
+# 3. Make executable and install to PATH
+chmod +x chhandansi-linux-arm64
+sudo mv chhandansi-linux-arm64 /usr/local/bin/chhandansi
 ```
 
 ---
@@ -165,7 +175,7 @@ chhandansi -f padya_corpus.txt --json > results.json
 
 ### Upgrading via Binary
 
-Simply download the latest binary from [Releases](https://github.com/lalitaalaalitah/chhandansi-binaries/releases), verify checksums, and overwrite `/usr/local/bin/chhandansi`.
+Because the download URLs use the dynamic `/releases/latest/download/` path, you can re-run the download commands at any time to upgrade to the latest stable binary.
 
 ### Upgrading via Homebrew
 
@@ -173,4 +183,3 @@ Simply download the latest binary from [Releases](https://github.com/lalitaalaal
 brew update
 brew upgrade --cask chhandansi
 ```
-
