@@ -127,3 +127,54 @@ brew upgrade --cask chhandansi
 ## 📖 Complete Documentation
 
 For detailed usage, interactive REPL options, multi-script output, and text file batch processing, see [HOW_TO_USE.md](HOW_TO_USE.md).
+
+---
+
+## 🤝 Credits & Upstream Acknowledgements (कृतज्ञता-निर्देशः)
+
+**`lalitaalaalitah_chhandAnsi`** builds upon and synthesizes decades of scholarship, open-source computational linguistics, and foundational prosody datasets. We gratefully acknowledge and credit the following upstream repositories, scholars, and open-source projects:
+
+### 1. Foundational Sanskrit Metrical Engines & Datasets
+1. **`sanskrit` (Sanskrit Metres)** by **Shreevatsa R**
+   - **Repository**: [https://github.com/shreevatsa/sanskrit](https://github.com/shreevatsa/sanskrit)
+   - **Web Application**: [http://sanskritmetres.appspot.com/](http://sanskritmetres.appspot.com/)
+   - **Contribution**: Pioneered modern open-source algorithmic Sanskrit metrical scansion and syllabification in Python. Provided the foundational core meter catalogs, including Dr. R. Ganesh's curated core meters, the *Vṛttaratnākara* collection, and miscellaneous classical meters.
+
+2. **`chanda` (*Chandojñānam*)** by **Hrishikesh Terdalkar & Prof. Arnab Bhattacharya** (Department of Computer Science & Engineering, IIT Kanpur)
+   - **Repositories**: [https://github.com/hrishikeshrt/chanda](https://github.com/hrishikeshrt/chanda) & [https://github.com/hrishikeshrt/chandojnanam](https://github.com/hrishikeshrt/chandojnanam)
+   - **Web Portal**: [https://sanskrit.iitk.ac.in/jnanasangraha/chanda/](https://sanskrit.iitk.ac.in/jnanasangraha/chanda/)
+   - **Academic Publication**: *Chandojñānam: A System for Identification and Analysis of Sanskrit Meters*, 18th World Sanskrit Conference, Canberra, Australia (2023).
+   - **Contribution**: Extensive structured classification datasets across *sama-vṛtta*, *ardhasama-vṛtta*, *viṣama-vṛtta*, *upajāti*, and *mātrā-vṛtta*, providing foundational data for our 1,574+ meter merged corpus.
+
+3. **`chandas`** by **Arun Prasad**
+   - **Repository**: [https://github.com/akprasad/chandas](https://github.com/akprasad/chandas) (developed collaboratively with the `sanskrit-programmers` & `sanskrit-lexicon` initiatives)
+   - **Contribution**: Early Pythonic abstractions for pattern matching, Jāti/Āryā metrical scansion, and syllable grouping heuristics.
+
+### 2. Multi-Script Transliteration & Indic Phonetics
+- **`aksharamukha`** by **Vinodh Rajan**
+  - **Repository**: [https://github.com/virtualvinodh/aksharamukha-python](https://github.com/virtualvinodh/aksharamukha-python)
+  - **Website**: [https://aksharamukha.appspot.com/](https://aksharamukha.appspot.com/)
+  - **Contribution**: The authoritative multi-script conversion engine powering lossless transliteration across Devanagari, Grantha, Telugu, Kannada, Malayalam, Bengali, Sharada, IAST, and 28+ Indic scripts and romanization systems.
+
+### 3. User Interface & Typography
+- **Catppuccin Palette**
+  - **Repository**: [https://github.com/catppuccin/catppuccin](https://github.com/catppuccin/catppuccin)
+  - **Contribution**: Soothing pastel color palette powering the Web UI's Mocha (dark) and Latte (light) themes.
+- **Adishila Font Family**
+  - **Contribution**: Authentic traditional Devanagari typography with rendering support for complex classical ligatures, conjuncts (*saṃyoga*), and Vedic/classical diacritics.
+
+### 4. Classical Sanskrit Prosodic Treatises (आकरग्रन्थाः)
+Our metrical definitions, lakṣaṇas, and phonetic rules strictly adhere to the classical tradition:
+- **Piṅgalācārya** (पिङ्गलाचार्यः) — *Chandaḥ-śāstram / Piṅgala-sūtrāṇi* (छन्दःशास्त्रम् / पिङ्गलसूत्राणि), especially canonical sūtras *गन्ते* (१.१०), *ध्रादिपरः* (१.११), and *हे* (१.१२).
+- **Kedārabhaṭṭa** (केदारभट्टः) — *Vṛttaratnākaraḥ* (वृत्तरत्नाकरः).
+- **Kālidāsa** (कालिदासः) (attributed) — *Śrutabodhaḥ* (श्रुतबोधः).
+- **Gaṅgādāsa** (गङ्गादासः) — *Chandomañjarī* (छन्दोमञ्जरी).
+
+---
+
+## 📜 License & Attribution
+
+This project is distributed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**.
+- **Author**: `lalitaalaalitah`
+- **Website**: [https://www.lalitaalaalitah.com](https://www.lalitaalaalitah.com)
+- **GitHub Profile**: [https://github.com/lalitaalaalitah](https://github.com/lalitaalaalitah)

@@ -183,3 +183,16 @@ Because the download URLs use the dynamic `/releases/latest/download/` path, you
 brew update
 brew upgrade --cask chhandansi
 ```
+
+---
+
+## ४. कृतज्ञता-निर्देशः (Credits & Upstream Acknowledgements)
+
+This platform builds upon and synthesizes the works of the following upstream open-source projects, scholars, and repositories:
+- **`sanskrit` (Sanskrit Metres)** by **Shreevatsa R** ([github.com/shreevatsa/sanskrit](https://github.com/shreevatsa/sanskrit) | [sanskritmetres.appspot.com](http://sanskritmetres.appspot.com/))
+- **`chanda` (*Chandojñānam*)** by **Hrishikesh Terdalkar & Prof. Arnab Bhattacharya** ([github.com/hrishikeshrt/chanda](https://github.com/hrishikeshrt/chanda) | [sanskrit.iitk.ac.in/jnanasangraha/chanda/](https://sanskrit.iitk.ac.in/jnanasangraha/chanda/))
+- **`chandas`** by **Arun Prasad** ([github.com/akprasad/chandas](https://github.com/akprasad/chandas))
+- **`aksharamukha`** by **Vinodh Rajan** ([github.com/virtualvinodh/aksharamukha-python](https://github.com/virtualvinodh/aksharamukha-python) | [aksharamukha.appspot.com](https://aksharamukha.appspot.com/))
+- **Catppuccin Palette** ([github.com/catppuccin/catppuccin](https://github.com/catppuccin/catppuccin))
+- **Adishila Typography**
+- **Classical Treatises**: Piṅgala's *Chandaḥ-sūtra*, Kedārabhaṭṭa's *Vṛttaratnākara*, Kālidāsa's *Śrutabodha*, and Gaṅgādāsa's *Chandomañjarī*.
