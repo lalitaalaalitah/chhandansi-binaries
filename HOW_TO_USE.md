@@ -4,7 +4,7 @@
 - **Author**: `lalitaalaalitah`
 - **Website**: [https://www.lalitaalaalitah.com](https://www.lalitaalaalitah.com)
 - **GitHub**: [https://github.com/lalitaalaalitah](https://github.com/lalitaalaalitah)
-- **Version**: `3.0.0`
+- **Version**: `4.0.0`
 - **License**: AGPL-3.0
 
 ---
